@@ -5,9 +5,11 @@
              Title="Jaanuar">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Image>
+                <Image.Source>
+                    <BitmapImage DecodePixelWidth="200" UriSource=".png"/>
+                </Image.Source>
+            </Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
