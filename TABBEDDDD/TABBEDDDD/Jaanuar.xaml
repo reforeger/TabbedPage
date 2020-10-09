@@ -5,11 +5,6 @@
              Title="Jaanuar">
     <ContentPage.Content>
         <StackLayout>
-            <Image>
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="200" UriSource=".png"/>
-                </Image.Source>
-            </Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
