@@ -4,7 +4,10 @@
              x:Class="TABBEDDDD.Jaanuar"
              Title="Jaanuar">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="Green">
+            <Frame BackgroundColor="Violet" HeightRequest="32" WidthRequest="112" Padding="0" CornerRadius="8" HasShadow="True">
+                <Label Text="Earn IT" TextColor="White" FontSize="14" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold"/>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

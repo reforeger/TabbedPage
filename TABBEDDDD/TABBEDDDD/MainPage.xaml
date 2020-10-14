@@ -4,23 +4,11 @@
              xmlns:local="clr-namespace:TABBEDDDD;assembly=TABBEDDDD"
              x:Class="TABBEDDDD.MainPage">
     <TabbedPage.Children>
-        <local:Jaanuar />
-        <NavigationPage Title="Schedule" IconImageSource="schedule.png">
+        <NavigationPage x:Name="Talv" Title="Friends">
             <x:Arguments>
-                <local:Veebruar />
+                <local:Jaanuar/>
             </x:Arguments>
-        </NavigationPage>
-        <local:Veebruar/>
-        <local:Marts/>
-        <local:April/>
-        <local:Mai/>
-        <local:Juuni/>
-        <local:Juuli/>
-        <local:August/>
-        <local:Seeptember/>
-        <local:Oktoober/>
-        <local:Novembeer/>
-        <local:Detsember/>
-
+        </NavigationPage >
+        <local:April></local:April>
     </TabbedPage.Children>
 </TabbedPage>
