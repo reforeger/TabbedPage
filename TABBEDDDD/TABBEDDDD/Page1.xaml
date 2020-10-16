@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TABBEDDDD.Page1"
+             Title="Main Menu of Celender">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#71DE9F">
+            <Frame BackgroundColor="#B8DE71" HeightRequest="52" WidthRequest="112" Padding="1" HasShadow="True">
+                <Label Text="Plese choose mounth and year of celebrities then Push the 'Button'." TextColor="#462168" FontSize="18" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

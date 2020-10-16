@@ -4,8 +4,8 @@
              x:Class="TABBEDDDD.Jaanuar"
              Title="Jaanuar">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Green">
-            <Frame BackgroundColor="Violet" HeightRequest="32" WidthRequest="112" Padding="0" CornerRadius="8" HasShadow="True">
+        <StackLayout BackgroundColor="#8ADACC">
+            <Frame BackgroundColor="#71DE9F" HeightRequest="52" WidthRequest="112" Padding="0" HasShadow="True">
                 <Label Text="Earn IT" TextColor="White" FontSize="14" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold"/>
             </Frame>
         </StackLayout>

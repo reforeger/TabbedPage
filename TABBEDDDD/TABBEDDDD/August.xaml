@@ -4,7 +4,7 @@
              x:Class="TABBEDDDD.August"
              Title="August">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="#8ADACC">
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
