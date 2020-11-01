@@ -9,7 +9,11 @@
                 <local:Page1/>
             </x:Arguments>
         </NavigationPage >
-        <local:Jaanuar/>
+        <local:Jaanuar>
+            <Label Height="25" Margin="26,27,116,0" VerticalAlignment="Top">
+                <Hyperlink Click="Hyperlink_Click">Click Me</Hyperlink>
+            </Label>
+        </local:Jaanuar>
         <local:Veebruar/>
         <local:Marts/>
         <local:April/>

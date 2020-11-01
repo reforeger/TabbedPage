@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace TABBEDDDD
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class ViewCell1 : ViewCell
     {
-        public Page1()
+        public ViewCell1()
         {
             InitializeComponent();
-
-        }
-        private void Hyperlink_RequestNavigate(object sender, System.Windows.Navigation.RequestNavigateEventArgs e)
-        {
-            System.Diagnostics.Process.Start(e.Uri.AbsoluteUri);
         }
     }
 }
