@@ -22,7 +22,7 @@ namespace TABBEDDDD
         }
         void OnButtonClicked(object sender, EventArgs e)
         {
-            Uri uri = new Uri("http://www.tthk.ee");
+            Uri uri = new Uri("https://xn--riigiphad-v9a.ee/et/iseseisvusp%C3%A4ev%2C+eesti+vabariigi+aastap%C3%A4ev");
             Browser.OpenAsync(uri);
         }
     }

@@ -4,8 +4,8 @@
              xmlns:local="clr-namespace:TABBEDDDD;assembly=TABBEDDDD"
              x:Class="TABBEDDDD.MainPage">
     <TabbedPage.Children>
-        <NavigationPage x:Name="Navigation1" Title="Navigation" BackgroundColor="AliceBlue" >
-        </NavigationPage >
+        <local:All_puhad>
+        </local:All_puhad>
         <local:Jaanuar/>
         <local:Veebruar/>
         <local:Marts/>

@@ -22,7 +22,7 @@ namespace TABBEDDDD
         }
         void OnButtonClicked(object sender, EventArgs e)
         {
-            Uri uri = new Uri("http://www.tthk.ee");
+            Uri uri = new Uri("https://et.wikipedia.org/wiki/Uusaasta");
             Browser.OpenAsync(uri);
         }
     }

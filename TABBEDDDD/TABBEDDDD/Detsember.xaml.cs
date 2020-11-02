@@ -22,17 +22,17 @@ namespace TABBEDDDD
         }
         void OnButtonClicked(object sender, EventArgs e)
         {
-            Uri uri = new Uri("http://www.tthk.ee");
+            Uri uri = new Uri("https://et.wikipedia.org/wiki/J%C3%B5ululaup%C3%A4ev");
             Browser.OpenAsync(uri);
         }
         void OnButtonClicked1(object sender, EventArgs e)
         {
-            Uri uri = new Uri("http://www.tthk.ee");
+            Uri uri = new Uri("https://et.wikipedia.org/wiki/J%C3%B5ulud");
             Browser.OpenAsync(uri);
         }
         void OnButtonClicked2(object sender, EventArgs e)
         {
-            Uri uri = new Uri("http://www.tthk.ee");
+            Uri uri = new Uri("https://et.wikipedia.org/wiki/J%C3%B5ulud");
             Browser.OpenAsync(uri);
         }
     }

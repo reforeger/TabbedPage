@@ -22,12 +22,12 @@ namespace TABBEDDDD
         }
         void OnButtonClicked(object sender, EventArgs e)
         {
-            Uri uri = new Uri("http://www.tthk.ee");
+            Uri uri = new Uri("https://xn--riigiphad-v9a.ee/et/v%C3%B5idup%C3%BCha");
             Browser.OpenAsync(uri);
         }
         void OnButtonClicked1(object sender, EventArgs e)
         {
-            Uri uri = new Uri("http://www.tthk.ee");
+            Uri uri = new Uri("https://xn--riigiphad-v9a.ee/et/jaanip%C3%A4ev");
             Browser.OpenAsync(uri);
         }
     }

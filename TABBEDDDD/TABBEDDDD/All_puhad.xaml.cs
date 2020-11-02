@@ -10,10 +10,10 @@ using Xamarin.Forms.Xaml;
 namespace TABBEDDDD
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class August : ContentPage
+    public partial class All_puhad : ContentPage
     {
         Button btn1;
-        public August()
+        public All_puhad()
         {
             InitializeComponent();
 
@@ -22,7 +22,7 @@ namespace TABBEDDDD
         }
         void OnButtonClicked(object sender, EventArgs e)
         {
-            Uri uri = new Uri("https://et.wikipedia.org/wiki/Taasiseseisvumisp%C3%A4ev");
+            Uri uri = new Uri("https://xn--riigiphad-v9a.ee/");
             Browser.OpenAsync(uri);
         }
     }
