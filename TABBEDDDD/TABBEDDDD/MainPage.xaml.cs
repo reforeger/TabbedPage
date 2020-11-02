@@ -12,18 +12,11 @@ namespace TABBEDDDD
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : TabbedPage
     {
-        Page page;
         public MainPage()
         {
-            {
-                InitializeComponent();
-                var pages = Children.GetEnumerator();
-                pages.MoveNext(); // First page
-                pages.MoveNext(); // Second page
-
-                CurrentPage = pages.Current;
-
-            }
+            
+            InitializeComponent();
+            
         }
 
     }

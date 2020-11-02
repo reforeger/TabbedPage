@@ -4,16 +4,9 @@
              xmlns:local="clr-namespace:TABBEDDDD;assembly=TABBEDDDD"
              x:Class="TABBEDDDD.MainPage">
     <TabbedPage.Children>
-        <NavigationPage x:Name="Navigation1" Title="Navigation" >
-            <x:Arguments>
-                <local:Page1/>
-            </x:Arguments>
+        <NavigationPage x:Name="Navigation1" Title="Navigation" BackgroundColor="AliceBlue" >
         </NavigationPage >
-        <local:Jaanuar>
-            <Label Height="25" Margin="26,27,116,0" VerticalAlignment="Top">
-                <Hyperlink Click="Hyperlink_Click">Click Me</Hyperlink>
-            </Label>
-        </local:Jaanuar>
+        <local:Jaanuar/>
         <local:Veebruar/>
         <local:Marts/>
         <local:April/>

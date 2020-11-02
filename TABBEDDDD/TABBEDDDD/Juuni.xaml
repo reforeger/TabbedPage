@@ -5,9 +5,11 @@
              Title="Juuni">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#8ADACC">
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame BackgroundColor="#71DE9F" HeightRequest="52" WidthRequest="112" Padding="0" Margin="20" HasShadow="True">
+                <Label Text="Juuni riigipühad" TextColor="White" FontSize="20" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold"/>
+            </Frame>
+            <Button Text="Võidupüha" TextColor="#4f3963" Clicked="OnButtonClicked" BackgroundColor="#d9d691" VerticalOptions="CenterAndExpand" Padding="15" Margin="80"/>
+            <Button Text="Jaanipäev" TextColor="#4f3963" Clicked="OnButtonClicked1" BackgroundColor="#d9d691" VerticalOptions="CenterAndExpand" Padding="15" Margin="80"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
